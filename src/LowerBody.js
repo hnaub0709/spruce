@@ -11,6 +11,19 @@ function LowerBody() {
       <div className="money-in">
         <h1 className="moneyin">Money In <br /><p className="span1">Recent transactions <GrTransaction className="transact"/></p>  </h1>
         
+        <section className="ach-2">
+        <div>
+        <TfiMoney className="naked-dollar"/>
+        </div>
+        <div>
+            <h4 className="achcredit">Chase *7433</h4>
+            <p className="date">December 2, 2022</p>
+        </div>
+        <p className="amount-3">+$50</p>
+      </section>
+
+      <hr />
+
       </div>
       <section className="ach">
         <div className="d">
@@ -39,6 +52,7 @@ function LowerBody() {
       </section>
       <hr /> 
       <section>
+
         <div>
             <h3 className="spend">
                 View Spending Account  <h3 className="fa"><FaGreaterThan/></h3> 

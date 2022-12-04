@@ -1,6 +1,9 @@
 import { BiUser } from "react-icons/bi";
 import './App.css';
 import LowerBody from "./LowerBody";
+import Warning from "./Warning";
+import {BsInfoCircle} from "react-icons/bs";
+
 
 
 
@@ -13,16 +16,19 @@ function App() {
       </div> <br />
       <div className="container2">
         <h1 className="John">
-          Morning, John! Take a <br /> peek at your recent <br /> money movememt.
+          Evening, John! Take a <br /> peek at your recent <br /> money movememt.
         </h1>
       </div> <br />
       <section className="container3">
-        <p>Your balance</p>
-        <h4>$75.21</h4>
+      
+        <p className='container3txt'> <BsInfoCircle className="bscricle"/> Your Spending Account Balance</p>
+        <h4 className='container3m' >$125.21</h4>
       </section>
       <hr className="tophr" />
 
-    </div> <br /><LowerBody /></>
+    </div>
+     <Warning/>
+     <LowerBody /></>
   
      
   );
